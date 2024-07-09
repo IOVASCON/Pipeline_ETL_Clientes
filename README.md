@@ -71,24 +71,24 @@ Para executar o projeto, use o seguinte comando:
 
 ## Estrutura de Arquivos
 
-main.py
+    main.py
 
-Arquivo principal que coordena o processo de ETL.
-config/settings.py
+    Arquivo principal que coordena o processo de ETL.
+    config/settings.py
 
-Contém as configurações, incluindo a chave da API e o endpoint.
-scripts/extract.py
+    Contém as configurações, incluindo a chave da API e o endpoint.
+    scripts/extract.py
 
-Script para extrair dados do arquivo CSV.
-scripts/transform.py
+    Script para extrair dados do arquivo CSV.
+    scripts/transform.py
 
-Script para transformar os dados conforme necessário.
-scripts/load.py
+    Script para transformar os dados conforme necessário.
+    scripts/load.py
 
-Script para carregar os dados processados para um endpoint de API.
-scripts/generate_message.py
+    Script para carregar os dados processados para um endpoint de API.
+    scripts/generate_message.py
 
-Script para gerar mensagens personalizadas de marketing usando a API do OpenAI.
+    Script para gerar mensagens personalizadas de marketing usando a API do OpenAI.
 
 ## Autor
 
